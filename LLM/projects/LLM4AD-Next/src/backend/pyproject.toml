@@ -1,0 +1,117 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = ""
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "fastapi[standard]<1.0.0,>=0.114.2",
+    "python-multipart<1.0.0,>=0.0.7",
+    "email-validator<3.0.0.0,>=2.1.0.post1",
+    "tenacity<9.0.0,>=8.2.3",
+    "emails<1.0,>=0.6",
+    "jinja2<4.0.0,>=3.1.4",
+    "alembic<2.0.0,>=1.12.1",
+    "httpx<1.0.0,>=0.25.1",
+    "psycopg[binary]<4.0.0,>=3.1.13",
+    "sqlmodel<1.0.0,>=0.0.21",
+    "sentry-sdk[fastapi]<2.0.0,>=1.40.6",
+    "pyjwt<3.0.0,>=2.8.0",
+    # 供应商凭据 / 任务配置的 Fernet 对称加密直接依赖 cryptography；
+    # 显式声明而非依赖 paramiko 等的传递引入，避免后者变更时加密静默失效。
+    "cryptography>=42.0.0",
+    "pwdlib[argon2,bcrypt]>=0.3.0",
+    "docker>=7.1.0",
+    "boto3>=1.42.85",
+    "celery[redis]>=5.6.3",
+    "flower>=2.0.1",
+    "psycopg2>=2.9.11",
+    "gevent>=26.4.0",
+    "llm4ad-next[all]",
+    "paramiko>=4.0.0",
+    "nest-asyncio>=1.6.0",
+    "qrcode[pil]>=8.0",
+    # AI build (beta): AgentScope core powers the single ReAct agent that runs
+    # inside the task-runner container. Core package only — never install
+    # agentscope-runtime, whose sandbox spins up its own Docker containers
+    # (container-in-container) since the agent already runs in an isolated container.
+    "agentscope>=2.0,<3.0",
+    # Knowledge parser runs the official Python SDK in the task-runner image.
+    "claude-agent-sdk>=0.1.80,<0.2",
+]
+
+[project.optional-dependencies]
+# uv sync --extra research --upgrade-package researchclaw; torch pinned to CPU index below.
+research = ["researchclaw", "torch>=2.2"]
+
+[tool.uv]
+# Drop xgboost's Linux-only NVIDIA NCCL dependency (~400 MB) from the backend
+# image only. It is only needed for multi-GPU/distributed training; the backend's
+# CPU training and inference work without it. Other consumers of llm4ad keep the
+# default (NCCL included), so this override lives here rather than at the repo root.
+override-dependencies = ["nvidia-nccl-cu12; sys_platform == 'never'"]
+
+[tool.uv.sources]
+llm4ad-next = { path = "../..", editable = true }
+# ── AutoResearch (optional) ─────────────────────────────────────────────────
+researchclaw = { git = "https://github.com/y414987863/AutoResearchClawAD.git", branch = "dev/0.5.0-llm4ad_0.1.0" }
+torch = [{ index = "pytorch-cpu" }]
+
+# CPU-only torch wheels; explicit = only torch resolves here, rest stays on PyPI.
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.mypy]
+strict = true
+exclude = ["venv", ".venv", "alembic"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 120
+exclude = ["alembic"]
+
+[tool.ruff.lint]
+select = [
+    "E", # pycodestyle errors
+    "W", # pycodestyle warnings
+    "F", # pyflakes
+    "I", # isort
+    "B", # flake8-bugbear
+    "C4", # flake8-comprehensions
+    "UP", # pyupgrade
+    "ARG001", # unused arguments in functions
+    "T201", # print statements are not allowed
+]
+ignore = [
+    "E501", # line too long, handled by black
+    "B008", # do not perform function calls in argument defaults
+    "W191", # indentation contains tabs
+    "B904", # Allow raising exceptions without from e, for HTTPException
+]
+
+[tool.ruff.lint.pyupgrade]
+# Preserve types, even if a file imports `from __future__ import annotations`.
+keep-runtime-typing = true
+
+[tool.coverage.run]
+source = ["app"]
+dynamic_context = "test_function"
+
+[tool.coverage.report]
+show_missing = true
+sort = "-Cover"
+
+[tool.coverage.html]
+show_contexts = true
+
+[tool.black]
+line-length = 120
+target-version = ["py312"]
+
+[tool.isort]
+line_length = 120

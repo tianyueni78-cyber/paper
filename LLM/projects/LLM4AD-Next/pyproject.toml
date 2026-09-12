@@ -1,0 +1,289 @@
+[project]
+name = "llm4ad-next"
+version = "1.1.0"
+description = "Interactive LLM-driven automated algorithm design with evolutionary optimization"
+readme = "README.md"
+license = {text = "BSD-3-Clause"}
+authors = [
+    {name = "LLM4AD Contributors"}
+]
+maintainers = [
+    {name = "LLM4AD Contributors"}
+]
+requires-python = ">=3.12"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Code Generators",
+]
+keywords = [
+    "llm",
+    "algorithm-design",
+    "automated-algorithm-design",
+    "evolutionary-optimization",
+    "code-generation",
+    "ai",
+]
+
+dependencies = [
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "typing-extensions>=4.5.0",
+    "aiohttp>=3.9.0",
+    "click>=8.3.1",
+    "typer>=0.24.1",
+    "rich>=13.0.0,<14.0.0",
+    "pytest-custom-exit-code>=0.3.0",
+    "openai>=2.26.0",
+    "pyyaml>=6.0.3",
+    "claude-agent-sdk",
+    "loguru>=0.7.3",
+    "numpy>=2.2.6",
+    "prompt-toolkit>=3.0.0",
+    "InquirerPy>=0.3.4",
+    "aiofiles>=25.1.0",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.3.0",
+    "xgboost>=3.2.0",
+    # AI build agent (chatv2). A base dependency so a plain `uv sync` installs it and
+    # chatv2 runs out of the box. agentscope requires Python >=3.11, which is always
+    # satisfied since the project requires >=3.12.
+    "agentscope>=2.0,<3.0",
+]
+
+[project.optional-dependencies]
+infra = [
+    "psutil>=5.9.0",
+]
+providers = [
+    "openai>=1.0.0",
+    "tiktoken>=0.6.0",
+    "anthropic>=0.19.0",
+]
+eval = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "sympy>=1.12.0",
+    "scipy>=1.10.0",
+    "umap-learn>=0.5.12",
+    "numba==0.61.2",
+    "llvmlite==0.44.0",
+]
+scip = [
+    "pyscipopt>=6.2,<7",
+]
+tsp = [
+    "numpy>=1.24.0",
+]
+lunarlander = [
+    "gymnasium[box2d]>=0.29.0",
+    "matplotlib>=3.5.0",
+]
+dyca = [
+    "numpy>=1.24.0",
+    "scikit-learn>=1.3.0",
+]
+meoh = [
+    "codebleu>=0.7.0",
+    "pymoo>=0.6.1",
+    "scikit-learn>=1.3.0",
+    "tree-sitter-python==0.21.0",
+]
+mindmemos = [
+    "mindmemos-sdk>=0.1.0; python_version >= '3.11' and python_version < '3.14'",
+    "textual>=1.0.0,<2",
+    "httpx>=0.27.0,<1",
+    "pyyaml>=6.0,<7",
+]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-cov>=4.1.0",
+    "black>=24.0.0",
+    "isort>=5.13.0",
+    "mypy>=1.8.0",
+    "ruff>=0.2.0",
+    "pytest-custom-exit-code>=0.3.0",
+]
+docs = [
+    "mkdocs>=1.5.0",
+    "mkdocs-git-committers-plugin-2>=2.5.0",
+    "mkdocs-git-revision-date-localized-plugin>=1.5.1",
+    "mkdocs-material>=9.5.0",
+    "mkdocs-minify-plugin>=0.8.0",
+    "mkdocstrings[python]>=0.24.0",
+]
+# AI build (beta) agent. agentscope is already a base dependency (see above), so this
+# extra is redundant and kept only for backward compatibility with `pip install
+# llm4ad[agent]`. Used by `llm4ad chatv2` and the backend /agent path.
+agent = [
+    "agentscope>=2.0,<3.0",
+]
+all = [
+    "llm4ad-next[infra,providers,eval,scip,dev,docs,tsp,lunarlander,dyca,meoh]"
+]
+
+[project.scripts]
+llm4ad = "llm4ad.frontend.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/Optima-CityU/LLM4AD_Next"
+Documentation = "https://llm4ad.readthedocs.io"
+Repository = "https://github.com/Optima-CityU/LLM4AD_Next"
+Issues = "https://github.com/Optima-CityU/LLM4AD_Next/issues"
+Changelog = "https://github.com/Optima-CityU/LLM4AD_Next/releases"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/llm4ad"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/src/llm4ad",
+    "/README.md",
+    "/LICENSE",
+    "/docs",
+    "/examples",
+    "/pyproject.toml",
+]
+
+[tool.black]
+line-length = 100
+target-version = ['py312']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+line_length = 100
+multi_line_output = 3
+
+[tool.mypy]
+python_version = "3.12"
+exclude = '^src/llm4ad/agent/skills/.*/reference/templates/'
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+disallow_incomplete_defs = false
+check_untyped_defs = true
+ignore_missing_imports = true
+warn_unused_ignores = true
+
+[[tool.mypy.overrides]]
+module = "yaml.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "llm4ad.utils.registry"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "llm4ad.infra.repo_analyzer.evolve_detector"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "llm4ad.infra.provider.anthropic"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "llm4ad.infra.provider.openai_compatible"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "llm4ad.infra.provider.mock"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "llm4ad.infra.version_control.git_worktree"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "llm4ad.evaluator.*"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "llm4ad.planner.*"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "llm4ad.coder.*"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "llm4ad.orchestrator.*"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "llm4ad.frontend.cli"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "llm4ad.llm4ad"
+ignore_errors = true
+
+[tool.ruff]
+line-length = 130
+target-version = "py312"
+select = [
+    "E",   # pycodestyle errors
+    "F",   # Pyflakes
+    "W",   # pycodestyle warnings
+    "I",   # isort
+    "N",   # pep8-naming
+    "D",   # pydocstyle
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    "SIM", # flake8-simplify
+]
+ignore = [
+    "D100", "D104",  # Missing docstring in public module/package
+    # py312 modernizations surfaced by target-version = "py312"; deferred so the
+    # 3.12 requirement bump stays focused and does not become a code refactor:
+    "UP042",  # (str, Enum) -> StrEnum: behaviourally subtle (changes str()/f-string output)
+    "UP046",  # Generic[T] subclass -> PEP 695 `class C[T]`: separate refactor
+]
+
+[tool.ruff.per-file-ignores]
+"src/llm4ad/planner/sampler/init_sampler.py" = ["E501"]  # Sample code with long lines
+"src/llm4ad/planner/sampler/prompt_templates.py" = ["E501", "W291"]  # Template code with long lines
+"src/llm4ad/utils/diff_utils.py" = ["E501"]  # Comment with long lines
+"tests/*" = ["E501"]  # Test files may have long lines
+"runs/*/worktrees/*/src/classifier.py" = ["N803", "N806"]  # ML naming conventions (X_train, X_test)
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+addopts = "-v --tb=short --suppress-no-test-exit-code"
+markers = [
+    "unit: Unit tests",
+    "integration: Integration tests",
+    "slow: Slow tests",
+    "e2e: End-to-end tests",
+]
+
+[tool.coverage.run]
+source = ["src/llm4ad"]
+branch = true
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]
