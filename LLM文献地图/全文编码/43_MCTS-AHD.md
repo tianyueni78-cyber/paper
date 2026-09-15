@@ -87,3 +87,12 @@ Actual sequence: **M1 heuristics/applications → M4 manual design burden → M3
 - Ablation separates components/actions/parameters and later adds parameter flexibility, black-box scope, cross-LLM and evolution-trajectory evidence.
 - Discussion does not claim universal superiority: it identifies weaker black-box settings and hypothesizes why limited MCTS expansion needs higher generation quality.
 - Limitation is concise and placed with Conclusion: convergence speed and MCTS-population hybrid future direction.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/43_MCTS-AHD.md`
+- Decision Layer: Search-control
+- Current-study Relation: 支撑 search-process-aware 路线
+- Innovation Boundary: 已占据或直接限制的边界：用 tree search 管理 heuristic design，保留暂时低性能但有潜力的路径，证明 search topology 本身可被设计。
+- Best Writing Claim: 用 tree search 管理 heuristic design，保留暂时低性能但有潜力的路径，证明 search topology 本身可被设计。

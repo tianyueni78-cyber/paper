@@ -83,3 +83,12 @@ Actual sequence: **M1 OR/MP practical importance/examples → M4 specialist/deve
 - LPWP explicitly adds **prompt tokens + USD cost + latency**, allowing model-quality/cost trade-off analysis.
 - Results acknowledge cheaper/smaller models can fail on ambiguous mathematical optimization, while editing is easier than creation.
 - Missing: seeds, hypothesis tests, CI, hardware and aggregate solver-call accounting.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/56_Abstract-OR-Modeling.md`
+- Decision Layer: Modeling / system
+- Current-study Relation: 外围
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Modeling / system，主要用于外围。
+- Best Writing Claim: 把抽象模型、solver triage 与 what-if 对话结合，代表多轮自然语言 OR 系统。

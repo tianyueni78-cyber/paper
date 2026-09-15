@@ -89,3 +89,12 @@ Actual sequence: **M4 prevailing limitation/perception of LLMs for NP-hard CO �
 - Results report per-size and average Percentage Gap; no variance, repeated-run statistics, significance tests or CI.
 - Computational feasibility is unusually concrete: quantization, GPU memory, training hours, context length, token length and estimated per-sample inference time.
 - Limitations section is brief; several more consequential limitations are disclosed earlier in method/evaluation rather than there.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/36_STARJOB.md`
+- Decision Layer: Direct solution generation
+- Current-study Relation: 用于说明高层 selector 与端到端 LLM 不同
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Direct solution generation，主要用于用于说明高层 selector 与端到端 LLM 不同。
+- Best Writing Claim: 用 fine-tuned LLM 端到端求 JSSP，代表 direct scheduling solution 路线。

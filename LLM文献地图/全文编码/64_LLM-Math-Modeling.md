@@ -81,3 +81,12 @@ Actual sequence: **M1 LLM mathematical reasoning importance → M2 natural vs ma
 - Reports negative/nuanced findings: complex modeling remains difficult; o1 can underperform on easy LP; scaling can plateau; format repair changes executability more than ranking.
 - Appendix carries substantial reproducibility evidence: data review, modifier passes, metric threshold sensitivity, error taxonomy, few-shot sensitivity, settings, prompts and evaluation script.
 - Missing: repeated stochastic runs, seeds, inferential significance tests, runtime and API cost.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/64_LLM-Math-Modeling.md`
+- Decision Layer: Modeling evaluation
+- Current-study Relation: 支持执行验证
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Modeling evaluation，主要用于支持执行验证。
+- Best Writing Claim: 用 solver-based process evaluation 测数学建模正确性，强调过程验证。

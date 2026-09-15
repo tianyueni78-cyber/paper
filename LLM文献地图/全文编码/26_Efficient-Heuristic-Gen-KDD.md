@@ -93,3 +93,12 @@ Actual sequence: **M1 heuristics/COP + HG → M3 EC-HG → M3 LLM-HG/EoH/ReEvo �
 - Generalization is argued across task types, COPs, LLMs, sizes, TSPLIB, NCO and black-box/white-box settings rather than one dedicated OOD heading.
 - Statistical writing reports exact p-values and Pearson coefficient where prediction quality is specifically investigated, but no global significance test over all optimization tables.
 - Computational-cost writing is central to the paper's claim, with search minutes and context/generation tokens reported alongside gain.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/26_Efficient-Heuristic-Gen-KDD.md`
+- Decision Layer: Performance prediction
+- Current-study Relation: 支持预算与真实评价成本控制
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Performance prediction，主要用于支持预算与真实评价成本控制。
+- Best Writing Claim: 用 core abstraction 与 performance prediction 降低昂贵 heuristic evaluation，是评价成本控制的关键证据。

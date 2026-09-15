@@ -92,3 +92,12 @@ Actual sequence: **M1 CO importance/complexity → M3 heuristics → M4 manual e
 - Robustness/generalization is argued through five domains + multiple selector models + repeated runs, rather than a dedicated robustness section。
 - Statistical significance: NOT PRESENT。
 - Computational cost: unusually explicit API-call cap, per-instance time cap, selection frequency, MC rollouts, hardware and token limits; monetary cost absent。
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/23_HeurAgenix.md`
+- Decision Layer: Online heuristic selection
+- Current-study Relation: 最接近当前 selector 机制
+- Innovation Boundary: 已占据或直接限制的边界：把 heuristic pool 与 current-state online LLM selector 直接连起来，是“offline portfolio + online LLM selection”不能作为创新的核心证据。
+- Best Writing Claim: 把 heuristic pool 与 current-state online LLM selector 直接连起来，是“offline portfolio + online LLM selection”不能作为创新的核心证据。

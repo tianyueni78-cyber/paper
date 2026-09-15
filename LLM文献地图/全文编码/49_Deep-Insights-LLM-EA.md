@@ -83,3 +83,12 @@ Actual sequence: **M1 optimization importance/complexity → M4 limitations of m
 - Valuable writing evidence is instead **taxonomy construction**: define an evolution axis, identify the bottleneck at each transition, then synthesize common components into a formal generic algorithm.
 - The paper uses equations/Algorithm 1 to turn a narrative review into a normalized comparison framework, which is useful for later corpus technical-evolution writing.
 - No empirical setup/results/ablation/significance/cost reporting by this paper itself.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/49_Deep-Insights-LLM-EA.md`
+- Decision Layer: Field evolution
+- Current-study Relation: 写作背景
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Field evolution，主要用于写作背景。
+- Best Writing Claim: 从 heuristic→metaheuristic→HH→LLM-EA 梳理 automated optimization 演进，适合作为脉络综述。

@@ -126,3 +126,12 @@
 - Statistical significance: figure直接用星号阈值，另给 p-value table；明确 two-sided oracle test。
 - Computational cost: 独立 Section 6.7，wall-clock + hardware + token + break-even deployment argument；同时诚实说明 LLM marginal per-instance latency 更高。
 - Limitation writing: 一部分放 Method theoretical-assumption discussion，一部分放 runtime tradeoff，而不是只在 Conclusion 放一句 future work。
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/19_ReflecSched.md`
+- Decision Layer: Dynamic scheduling control
+- Current-study Relation: 直接卡住宽泛 novelty
+- Innovation Boundary: 已占据或直接限制的边界：dynamic FJSP 中用 hierarchical reflection 与 strategic experience 支持即时调度，是“LLM+动态FJSP”最直接边界文献。
+- Best Writing Claim: dynamic FJSP 中用 hierarchical reflection 与 strategic experience 支持即时调度，是“LLM+动态FJSP”最直接边界文献。

@@ -81,3 +81,12 @@ Actual sequence: **M1 broad optimization applications → M2 conventional three-
 - Sensitivity evidence isolates **training duration** and **data diversity/size**, with token exposure roughly controlled in the latter.
 - Authors explicitly defer multi-round quantitative evaluation because acceptable answers are diverse, an example of not forcing an ill-defined metric.
 - Missing: repeated seeds, statistical tests/CI, runtime/API cost and component-level framework ablation.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/60_General-NL-Optimization.md`
+- Decision Layer: Modeling / solver loop
+- Current-study Relation: 外围
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Modeling / solver loop，主要用于外围。
+- Best Writing Claim: NL→formulation/code→external solver→dialogue refinement，代表通用 solver-in-the-loop 建模路线。

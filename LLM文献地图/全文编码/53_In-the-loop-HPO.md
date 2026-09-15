@@ -84,3 +84,12 @@ Actual sequence: **M1 LLM AHD promise → M4 high financial/computational budget
 - Generalization failure is openly diagnosed in TSP and followed by TSPLib validation.
 - Statistical comparison uses Wilcoxon-Holm α=.05 on TSPLib.
 - Computational cost is operationalized through prompt/evaluation budgets, but hardware, total wall-clock, token count and actual dollars remain unreported.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/53_In-the-loop-HPO.md`
+- Decision Layer: HPO / cost control
+- Current-study Relation: 支持因果拆解与公平预算
+- Innovation Boundary: 已占据或直接限制的边界：把 HPO 从 LLM generation 中拆出，直接提醒模块解耦和计算/token 成本控制。
+- Best Writing Claim: 把 HPO 从 LLM generation 中拆出，直接提醒模块解耦和计算/token 成本控制。

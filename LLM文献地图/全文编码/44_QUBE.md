@@ -86,3 +86,12 @@ Actual sequence: **M1 NP-complete/heuristics + EA/LLM opportunity → M3 LLM+EA/
 - Hyperparameter search is moved to appendix with run counts and full candidate values.
 - Computational limitation is quantified for cap set (>3 days / 2.5M programs), and failure to reproduce original FunSearch SOTA is not concealed.
 - No statistical significance tests or confidence intervals.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/44_QUBE.md`
+- Decision Layer: Search-control
+- Current-study Relation: 限制“加入不确定性”创新
+- Innovation Boundary: 已占据或直接限制的边界：用 quality-uncertainty trade-off 控制 LLM heuristic search，说明 uncertainty 已成为搜索状态。
+- Best Writing Claim: 用 quality-uncertainty trade-off 控制 LLM heuristic search，说明 uncertainty 已成为搜索状态。

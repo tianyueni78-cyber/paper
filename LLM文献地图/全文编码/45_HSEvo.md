@@ -85,3 +85,12 @@ Actual sequence: **M1 heuristics/metaheuristics importance → M4 manual design 
 - Ablation is not simple component deletion: HS is transplanted into ReEvo and flash reflection replaces ReEvo reflection, allowing mechanism-specific comparison.
 - A negative implementation fact is disclosed: FunSearch→OP extension failed due unresolved conflicts.
 - No statistical significance tests, CI, monetary cost or full wall-clock reporting.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/45_HSEvo.md`
+- Decision Layer: Search-control
+- Current-study Relation: 限制“多样性状态”创新
+- Innovation Boundary: 已占据或直接限制的边界：显式度量 heuristic population diversity 以平衡 exploration/exploitation，说明 diversity 已是控制变量。
+- Best Writing Claim: 显式度量 heuristic population diversity 以平衡 exploration/exploitation，说明 diversity 已是控制变量。

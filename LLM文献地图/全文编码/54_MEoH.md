@@ -83,3 +83,12 @@ Actual sequence: **M1 heuristic importance/manual burden → M3 classical AHD ca
 - Generalization claims are tied to explicit BPP capacity shift and TSP scale/TSPLIB tests.
 - Computational cost is an **objective** rather than merely supplementary reporting.
 - Missing: seeds, statistical significance/CI, token/API cost, total AHD wall-clock.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/54_MEoH.md`
+- Decision Layer: Multi-objective heuristic design
+- Current-study Relation: 限制“多目标 heuristic set”创新
+- Innovation Boundary: 已占据或直接限制的边界：把 heuristic search 做成多目标并输出 non-dominated heuristic set，说明多目标 heuristic portfolio 已存在。
+- Best Writing Claim: 把 heuristic search 做成多目标并输出 non-dominated heuristic set，说明多目标 heuristic portfolio 已存在。

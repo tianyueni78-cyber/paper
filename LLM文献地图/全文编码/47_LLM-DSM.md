@@ -84,3 +84,12 @@ Actual sequence: **M1 CO importance/examples → M2 traditional engineering CO p
 - Main results report mean±std and 1/5/20-trial LLM checkpoints.
 - Domain-knowledge ablation is repeated across four backbone LLMs rather than only the chosen model.
 - No formal significance test, CI, hardware/runtime/token/API-cost report.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/47_LLM-DSM.md`
+- Decision Layer: Contextual iterative optimization
+- Current-study Relation: 近邻机制参考
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Contextual iterative optimization，主要用于近邻机制参考。
+- Best Writing Claim: 用 topology、domain context 与 historical solutions 驱动迭代优化，是结构+历史共同入模的案例。

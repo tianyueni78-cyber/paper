@@ -79,3 +79,12 @@ Actual sequence: **M1 optimization importance → M4 expert-access barrier → M
 - Sensitivity probes an internal control parameter, maximum agent calls, and explains why hard datasets benefit from iterative repair.
 - Failure analysis classifies incorrect modeling, missing constraints and coding errors rather than hiding unsuccessful cases.
 - Computational-cost reporting is weak: prompt length/call frequency are shown, but runtime, hardware and monetary API cost are NOT REPORTED.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/67_OptiMUS.md`
+- Decision Layer: Agentic modeling
+- Current-study Relation: 外围
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Agentic modeling，主要用于外围。
+- Best Writing Claim: 用 modular LLM agents + connection graph + solver code/debugging 构建 OR 系统。

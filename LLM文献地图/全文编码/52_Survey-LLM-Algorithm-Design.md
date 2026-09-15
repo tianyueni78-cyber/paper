@@ -87,3 +87,12 @@ Actual sequence: **M1 importance/manual algorithm-design burden → M3 rise of L
 - They explicitly disclose non-exhaustiveness, which is useful wording discipline for our final gap claims.
 - Quantitative field claims are tied to the defined survey corpus, e.g. paradigm distribution, rather than universalized to all world literature.
 - No statistical significance/CI because this is a systematic taxonomy survey, not meta-analysis.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/52_Survey-LLM-Algorithm-Design.md`
+- Decision Layer: Algorithm design taxonomy
+- Current-study Relation: 支持文献综述结构
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Algorithm design taxonomy，主要用于支持文献综述结构。
+- Best Writing Claim: 系统分类 LLM automated algorithm design 与挑战，是 AHD 路线的综述入口。

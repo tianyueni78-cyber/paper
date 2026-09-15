@@ -80,3 +80,12 @@ Actual sequence: **M1 6G complexity/optimization importance → M3 convex optimi
 - Results proceed from learning curves → component ablation → changing constraint → larger state/example space.
 - Negative evidence is retained: GPT-3.5 underperforms stronger LLMs; feedback-only method is insufficient for the dynamic environment.
 - Computational complexity gets a dedicated subsection, but empirical latency/cost/hardware are not reported.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/58_LLM-Wireless-Power-Control.md`
+- Decision Layer: Online action selection
+- Current-study Relation: 机制极近，虽应用不同
+- Innovation Boundary: 已占据或直接限制的边界：current state + experience pool(state,action,reward) → online LLM action，是 history-aware contextual decision 的直接边界证据。
+- Best Writing Claim: current state + experience pool(state,action,reward) → online LLM action，是 history-aware contextual decision 的直接边界证据。

@@ -81,3 +81,12 @@ Actual sequence: **M1 LLM use in implicitly structured tasks → M5 explicit gra
 - Proposed methods are tested against semantically irrelevant instruction controls/dot controls in Appendix D, which separates extra-computation effects from instruction content.
 - Limitations explicitly disclose cost-driven sampling of 5,902/29,370 instances.
 - No inferential statistics, CI, runtime or hardware accounting despite extensive benchmark coverage.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/75_Graph-Problems-in-NL.md`
+- Decision Layer: Direct reasoning evaluation
+- Current-study Relation: 支持 OOD/规模测试
+- Innovation Boundary: 已占据或直接限制的边界：图 reasoning benchmark 显示复杂度增加时 prompting/ICL 收益衰减，是 scale/generalization 边界证据。
+- Best Writing Claim: 图 reasoning benchmark 显示复杂度增加时 prompting/ICL 收益衰减，是 scale/generalization 边界证据。

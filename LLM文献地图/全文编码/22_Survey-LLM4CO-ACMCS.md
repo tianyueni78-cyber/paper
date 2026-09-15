@@ -91,3 +91,12 @@ Sequence: **M2 CO definition/application → M3 traditional modeling/solving →
 - Taxonomy writing: top-down from optimization process → activities → algorithm/model types → LLM architecture → benchmark datasets → application domains。
 - Limitations: dedicated Section 8 with coverage recency, selection bias, scope exclusions, preprints, closed-source reproducibility。
 - Statistical significance/computational cost: NOT APPLICABLE as a systematic review without meta-analysis。
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/22_Survey-LLM4CO-ACMCS.md`
+- Decision Layer: Field taxonomy
+- Current-study Relation: 背景综述
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Field taxonomy，主要用于背景综述。
+- Best Writing Claim: 系统梳理 LLM4CO 任务、方法、数据与趋势，是领域导航而非直接竞品。

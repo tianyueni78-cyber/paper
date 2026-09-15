@@ -94,3 +94,12 @@ Actual move sequence: **M1 → M3/M4 human-designed heuristics → M3/M4 classic
 - Robustness/generalization: separates larger-scale TSP/BPP generalization from ACS/WSN repeated-seed stability。
 - Statistical significance: NOT PRESENT。
 - Computational cost: hardware reported; wall-clock/token/API cost absent。
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/20_MeLA.md`
+- Decision Layer: Meta-reasoning design
+- Current-study Relation: 间接支撑设计空间扩张
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Meta-reasoning design，主要用于间接支撑设计空间扩张。
+- Best Writing Claim: 把优化对象从 heuristic code 推向 prompt / reasoning process 的进化，说明元认知也可成为设计对象。

@@ -83,3 +83,12 @@
 
 ### Novelty-claim strength
 - High: explicit `to the best of our knowledge, first` claim, plus SOTA claims. Scope is defined as generative process supervision for OR, not generic LLM optimization.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/12_StepORLM.md`
+- Decision Layer: Verification / process supervision
+- Current-study Relation: 支持真实执行结果约束 selector
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Verification / process supervision，主要用于支持真实执行结果约束 selector。
+- Best Writing Claim: 把 solver outcome verification 与过程监督、自进化结合，证明“可验证反馈”应进入 LLM optimization。

@@ -142,3 +142,12 @@ Reason: directly relevant to LLM-driven automatic heuristic/operator design and 
 - Relevant appendices B–G: READ through EOF.
 - Discussion as a standalone section: NOT PRESENT.
 - Separate generalization/robustness section: NOT PRESENT; scale transfer and future generalization are recorded where actually discussed.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/03_CVRP-Solver-AHD.md`
+- Decision Layer: Heuristic generation
+- Current-study Relation: 支撑角色分工与 AHD 演进
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Heuristic generation，主要用于支撑角色分工与 AHD 演进。
+- Best Writing Claim: 把 LLM+EC 用于生成 ruin heuristic 并交给传统 AILS 执行，是“LLM 设计、经典优化器执行”的直接实例。

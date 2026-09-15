@@ -75,3 +75,12 @@ Actual sequence: **M1 EC importance/applications → M4 EC challenges (large/com
 
 ### Experimental writing
 - NOT PRESENT. This paper must be excluded from denominators for experiment-specific practices where the denominator is papers with experiments, while remaining in the full 69-paper corpus for conceptual/writing analyses where applicable.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/65_EC-with-LLMs.md`
+- Decision Layer: Field taxonomy
+- Current-study Relation: 支持方法分类
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Field taxonomy，主要用于支持方法分类。
+- Best Writing Claim: 讨论 LLM strategy selection、operator、population 与 dynamic adaptation，是 EC×LLM 角色全景。

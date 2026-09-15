@@ -87,3 +87,12 @@ Actual sequence: **M1 COP importance → M3 heuristics/GLS-GA-ACO → M4 manual 
 - Results are organized by problem, then dedicated sections for generalization, ablation, exploration efficiency, convergence and qualitative trajectory.
 - Appendix greatly expands reproducibility: search budgets, early-stop rule, reward construction, generated-heuristic execution, prompts, complete TSPLIB/Taillard tables.
 - No formal statistical test/CI, despite 3-run and standard-deviation visual reporting.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/40_Planning-of-Heuristics.md`
+- Decision Layer: Search planning
+- Current-study Relation: 支撑 trajectory-level decision
+- Innovation Boundary: 已占据或直接限制的边界：把 heuristic improvement 形式化为 MDP/MCTS 规划，说明“搜索过程中的高层动作”已有明确规划视角。
+- Best Writing Claim: 把 heuristic improvement 形式化为 MDP/MCTS 规划，说明“搜索过程中的高层动作”已有明确规划视角。

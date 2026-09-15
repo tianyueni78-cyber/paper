@@ -86,3 +86,12 @@ Actual sequence: **M1 optimization importance → M2 traditional modeling pipeli
 - Authors preserve proxy limitations by manually auditing 18 cases and reporting mismatches, rather than treating matching objective value as semantic proof.
 - Appendix E separately demonstrates why formulation choice and solver choice affect optimality/runtime, using 100 random samples.
 - Main paper does not report hardware, total runtime, token budget, API cost, CI, or repeated random seeds.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/48_Autoformulation.md`
+- Decision Layer: Formulation search
+- Current-study Relation: 说明建模也可视为搜索
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Formulation search，主要用于说明建模也可视为搜索。
+- Best Writing Claim: 把 formulation 视作 hypothesis-space search，并用 MCTS、symbolic pruning 与 feedback 搜索。

@@ -85,3 +85,12 @@ Actual sequence: **M1 optimization-modeling importance → M4 manual ambiguity/e
 - Cost trade-off is used causally in selecting T=1: acceptance improvement versus computational/token efficiency.
 - Negative/limited findings are retained: larger models still perform modestly on hard benchmarks; augmentation-only can hurt simple datasets; objective matching is not proof of exact equivalence.
 - No statistical significance/CI/repeated-run reporting.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/42_OptMATH.md`
+- Decision Layer: Data verification
+- Current-study Relation: 支持可验证数据/结果
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Data verification，主要用于支持可验证数据/结果。
+- Best Writing Claim: 用 solver/rejection verification 构造优化建模数据，说明 solver 可作为训练数据质量门。

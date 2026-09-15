@@ -89,3 +89,12 @@ Actual structure is extended/theory-style: **M1 MBO domain/problem → M4 finite
 - Results distinguish exact theorem claims from qualitative evidence and repeatedly state what the experiment **does not prove**.
 - Negative results are preserved: ALDRIFT does not exactly reach optimum under constrained M; spanning-tree Hamiltonian path not achieved on all 15 instances.
 - No significance tests/CI/runtime/hardware/cost, consistent with the paper’s theory-first positioning but relevant for later corpus coding.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/34_Generative-Priors.md`
+- Decision Layer: Hybrid generation/checking
+- Current-study Relation: 支撑分工原则
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Hybrid generation/checking，主要用于支撑分工原则。
+- Best Writing Claim: 把生成式模型先验与经典 checker/algorithm 结合，提供“生成负责提议、算法负责验证”的理论混合视角。

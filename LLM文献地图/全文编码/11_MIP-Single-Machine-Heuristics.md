@@ -84,3 +84,12 @@
 
 ### Novelty-claim strength
 - Strong discovery/SOTA language, but claims are tied to SMTT benchmark comparisons; no corpus-wide first claim is inferred here.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/11_MIP-Single-Machine-Heuristics.md`
+- Decision Layer: Heuristic generation
+- Current-study Relation: 调度侧背景
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Heuristic generation，主要用于调度侧背景。
+- Best Writing Claim: 用 LLM 辅助生成可解释单机调度 heuristic，说明调度 heuristic generation 已并非空白。

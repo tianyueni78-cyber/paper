@@ -61,3 +61,12 @@
 - Multiobjective route explicitly includes LLM offspring generation, LLM search operators, stagnation-triggered low-cost invocation, executable mutation-operator generation, multiobjective heuristic evolution and system-level coordination.
 - Cross-paradigm route explicitly includes classical operators, RL, neuro-symbolic systems, and search trajectory control/reasoning.
 - These are survey-level claims and must be verified against original direct competitors before final Research Gap statements.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/14_Survey-LLM-in-OR.md`
+- Decision Layer: Field taxonomy
+- Current-study Relation: 定义大类，不直接证明 novelty
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Field taxonomy，主要用于定义大类，不直接证明 novelty。
+- Best Writing Claim: 提供 modeling、auxiliary optimization、direct solving 等宏观分类，是定位 LLM 在 OR 中角色的基础入口。

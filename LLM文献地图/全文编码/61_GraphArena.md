@@ -80,3 +80,12 @@ Actual sequence: **M1 LLM evaluation challenge → M3 existing benchmark familie
 - Comparisons include deliberately weak Random/Greedy and stronger approximation algorithms, revealing whether LLM performance beats trivial heuristics.
 - Improvement experiments report negative findings: more CoT can degrade performance; code execution can hurt small cases; more test-time compute reduces hallucination more reliably than it improves optimal accuracy.
 - Appendix extends per-task, baseline, tokenizer, real-vs-synthetic and prompt evidence rather than merely repeating main tables.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/61_GraphArena.md`
+- Decision Layer: Direct solving evaluation
+- Current-study Relation: 支持为何不让 LLM 做低层求解
+- Innovation Boundary: 已占据或直接限制的边界：系统暴露 direct LLM graph/NP solving 的规模、planning 与 hallucination 边界。
+- Best Writing Claim: 系统暴露 direct LLM graph/NP solving 的规模、planning 与 hallucination 边界。

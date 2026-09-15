@@ -90,3 +90,12 @@ Actual sequence: **M1 optimization modeling importance/process → M4 manual NL�
 - Fairness caveat is explicit: some baseline values are copied/reproduced and marked `*` under the same relative-error criterion.
 - Statistical significance tests absent; robustness is conveyed with stochastic mean±std and error distributions.
 - Computational cost is unusually concrete for training: 8×H100, 48h total, 384 GPU-hours, token limits and rollout hyperparameters; monetary cost absent.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/28_Solver-Informed-RL.md`
+- Decision Layer: RL / verification
+- Current-study Relation: 支持 realized effect 而非语言理由
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 RL / verification，主要用于支持 realized effect 而非语言理由。
+- Best Writing Claim: 把 solver/verifiable reward 当 objective oracle 驱动 RL，强调可验证数值反馈的重要性。

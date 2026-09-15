@@ -91,3 +91,12 @@ Actual sequence: **M1 global-placement importance/SOTA structure → M3 existing
 - Generalization is not asserted only from average score: authors separately test a single generalized algorithm and acknowledge divergence on some cases.
 - No formal significance testing/CI; no standard ablation section.
 - Computational cost is central: GPU cluster, TT hours, placement runtime, one-GPU DSE simulation and 100-point constrained sampling are reported.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/30_EvoPlace.md`
+- Decision Layer: System design
+- Current-study Relation: 外围支撑
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 System design，主要用于外围支撑。
+- Best Writing Claim: 让 LLM 自动设计工业 placement optimizer 多组件，说明工业级系统设计已可被自动化。

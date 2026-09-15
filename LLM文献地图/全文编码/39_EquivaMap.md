@@ -85,3 +85,12 @@ Actual sequence: **M1 CO importance → M2 formulation equivalence importance/hi
 - Mechanism contrast is explicit: naive LLM vs structured map finding + verification.
 - Runtime reports mean±std and decomposes solver vs LLM time, identifying LLM interaction as bottleneck.
 - Discussion openly scopes the limitation to relatively straightforward transformations.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/39_EquivaMap.md`
+- Decision Layer: Verification
+- Current-study Relation: 支持外部验证
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Verification，主要用于支持外部验证。
+- Best Writing Claim: 关注不同数学 formulation 的功能等价性，强调“看起来对”不等于执行等价。

@@ -115,3 +115,12 @@
 - Robustness writing: Appendix A 用 repeated experiments + mean/std/CV 单独论证 stability/reproducibility。
 - Statistical significance writing: NOT PRESENT。
 - Computational cost writing: 报告 cutoff/hardware，但不报告 token/API cost 或完整 design cost。
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/16_AutoPBO.md`
+- Decision Layer: System/component design
+- Current-study Relation: 限制“设计多个组件”创新
+- Innovation Boundary: 已占据或直接限制的边界：让 LLM 设计复杂 PBO solver 的多个组件，证明 automated design 已超出单函数生成。
+- Best Writing Claim: 让 LLM 设计复杂 PBO solver 的多个组件，证明 automated design 已超出单函数生成。

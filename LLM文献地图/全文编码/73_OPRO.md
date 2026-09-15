@@ -80,3 +80,12 @@ Actual sequence: **M1 optimization ubiquity → M2 iterative optimization/update
 - Figures report averages across 3 repetitions with standard-deviation shading for prompt ablations; linear regression reports mean±SD; TSP uses mean±SE for steps/gaps as specified.
 - Overfitting is analyzed separately with train/validation/test splits rather than ignored.
 - Appendix gives concrete failure modes, which is valuable writing evidence for a limitations section.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/73_OPRO.md`
+- Decision Layer: Direct optimization
+- Current-study Relation: 说明 history-aware direct optimization 已存在
+- Innovation Boundary: 已占据或直接限制的边界：用历史 solution-score trajectory 让 LLM 提议新解，是“LLM as optimizer”最清晰的轨迹型代表。
+- Best Writing Claim: 用历史 solution-score trajectory 让 LLM 提议新解，是“LLM as optimizer”最清晰的轨迹型代表。

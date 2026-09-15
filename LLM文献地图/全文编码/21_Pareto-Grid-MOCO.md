@@ -93,3 +93,12 @@ Actual sequence: **M1 MOCOP importance/problem → M3 traditional MOEAs/neural �
 - Robustness/generalization: explicit ID/OOD size section。
 - Statistical significance: NOT PRESENT。
 - Computational cost: unusually central，runtime is itself a design objective and speedup is reported extensively；但 total LLM token/API/design cost未报。
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/21_Pareto-Grid-MOCO.md`
+- Decision Layer: Multi-objective heuristic design
+- Current-study Relation: 限制“Pareto-aware design”创新
+- Innovation Boundary: 已占据或直接限制的边界：把多目标 heuristic design 组织为 Pareto / grid 管理，说明 Pareto-aware algorithm design 已存在。
+- Best Writing Claim: 把多目标 heuristic design 组织为 Pareto / grid 管理，说明 Pareto-aware algorithm design 已存在。

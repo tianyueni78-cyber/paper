@@ -47,3 +47,12 @@
 - Ablation-result reporting: controlled design variants isolate strategy-space search, warm-start/design components and underlying AHD designer.
 - Academic hedging: uses `suggests`, `indicates`, `potential`, `could` for interpretation/future work, alongside stronger empirical claims where tables support them.
 - Novelty-claim strength: strong `new algorithm design paradigm` language; does not rely on an unqualified first-ever claim in the coded Introduction.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/06_MOCO-Interdependent-Operators.md`
+- Decision Layer: Operator-system design
+- Current-study Relation: 支撑多策略系统前提，限制“多算子”创新
+- Innovation Boundary: 已占据或直接限制的边界：把单 operator 设计推进到 interdependent multi-operator co-evolution，是 operator system / portfolio 路线关键证据。
+- Best Writing Claim: 把单 operator 设计推进到 interdependent multi-operator co-evolution，是 operator system / portfolio 路线关键证据。

@@ -78,3 +78,12 @@ Actual sequence: **M1 LLM reasoning success → M3 prompting families → M2 CP 
 - Negative evidence is explicit: SGE advantage decreases with size; Code Interpreter appears crucial; extra performance costs 87.89% more calls than Decomposition.
 - Exact small-case solver optimum is used as a separate validation axis rather than relying only on relative improvement against weak IO prompting.
 - Missing: repeated runs/seeds, inferential statistics/CI, runtime/token/API-dollar reporting and component-removal ablation.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/63_Self-Guiding-Exploration.md`
+- Decision Layer: Direct solving / refinement
+- Current-study Relation: 边界背景
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Direct solving / refinement，主要用于边界背景。
+- Best Writing Claim: 用多 thought trajectory、decomposition、feedback/refinement 直接解 CP，说明 trajectory 也可用于 direct solving。

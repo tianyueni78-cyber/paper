@@ -86,3 +86,12 @@ Actual sequence: **M2/M4 natural-language constraint-modeling problem and cognit
 - Results are organized by method family, then end with cross-method observations: execution-solution gap, execution errors, information sweet spot, reasoning-vs-structure.
 - Negative/counter-intuitive results are reported rather than hidden: shape information can degrade performance; KG improves execution but worsens solution accuracy; compositional best execution does not yield best solution accuracy.
 - No repeated-run variance/significance/CI/runtime/cost reporting.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/38_Text2Zinc.md`
+- Decision Layer: Modeling
+- Current-study Relation: 说明直接生成并不天然可靠
+- Innovation Boundary: 已占据或直接限制的边界：NL→constraint model 的结果暴露 push-button modeling 可靠性边界，是直接生成模型的反例型证据。
+- Best Writing Claim: NL→constraint model 的结果暴露 push-button modeling 可靠性边界，是直接生成模型的反例型证据。

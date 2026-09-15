@@ -46,3 +46,12 @@
 - Ablation-result reporting: removes one module at a time and attributes degradation to missing abstraction/critique functions.
 - Academic hedging: comparatively strong rhetoric in performance/role claims; mechanism interpretation uses `indicating`, `demonstrating`, `confirming` tied to observed ablations.
 - Novelty-claim strength: uses `novel, practical alternative` and strong role-framing, but no unqualified `first` claim observed in Introduction.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/09_Traffic-Signal-Heuristics.md`
+- Decision Layer: Slow-fast supervisory control
+- Current-study Relation: 在线 LLM 路线的关键反证
+- Innovation Boundary: 已占据或直接限制的边界：用 LLM 离线演化轻量 policy，并用 credit feedback 改进，核心价值是提醒高频 online LLM actor 的 latency 可能不划算。
+- Best Writing Claim: 用 LLM 离线演化轻量 policy，并用 credit feedback 改进，核心价值是提醒高频 online LLM actor 的 latency 可能不划算。

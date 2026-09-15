@@ -80,3 +80,12 @@ Actual sequence: **M1 heuristic importance → M4 manual design burden → M3 AH
 - Generalization is demonstrated by moving from synthetic evolution distribution to TSPLIB/Taillard and larger/different instance sets.
 - Extended appendices contain prompt templates, generated heuristic code and large comparison tables, making the method auditable at implementation level.
 - Missing inferential significance tests, CI, numeric random seeds, token budget and monetary LLM cost.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/69_EoH.md`
+- Decision Layer: Heuristic generation
+- Current-study Relation: 核心演进文献
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Heuristic generation，主要用于核心演进文献。
+- Best Writing Claim: thought+code co-evolution 的 LLM+EC AHD 代表作，是 heuristic generation 路线的基础锚点。

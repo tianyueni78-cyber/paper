@@ -80,3 +80,12 @@ Actual sequence: **M1 CP Holy-Grail vision → M4 NL-to-formal-model expertise b
 - This is not a mature experimental paper. Section 4 defines a planned evaluation axis and Section 5 presents qualitative examples.
 - No baseline fairness protocol, repeated runs, inferential statistics, computational cost or quantitative ablation.
 - Useful negative corpus evidence: a position paper can propose an architecture and examples without supporting population-level experimental-design claims; therefore it must not be counted as evidence for experimental norms.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/74_Holy-Grail-2.0.md`
+- Decision Layer: Modeling
+- Current-study Relation: 外围
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Modeling，主要用于外围。
+- Best Writing Claim: NER→relation→formulation→translation→fix/refine 的模块化建模路线，说明复杂建模依赖 pipeline 而非一次生成。

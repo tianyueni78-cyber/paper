@@ -83,3 +83,12 @@ Actual sequence: **M1 business optimization importance → M2 formulation/solver
 - Solver execution status is treated as stronger functional evidence than token-level loss.
 - Real-world assumptions are disclosed: transportation omitted, quantities simulated, due dates randomly generated because ERP data unavailable.
 - Weaknesses for final corpus statistics: no repeated stochastic runs, seeds, inferential tests, CI, inference-token/cost accounting.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/72_AI-Copilot-Business-Opt.md`
+- Decision Layer: Scheduling formulation
+- Current-study Relation: Scheduling侧背景
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Scheduling formulation，主要用于Scheduling侧背景。
+- Best Writing Claim: 用 fine-tuned LLM 处理现实 production scheduling formulation，说明 LLM 已深入生产调度建模。

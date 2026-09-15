@@ -88,3 +88,12 @@ Actual sequence: **M1/M2 GCO importance and NP-hardness → M3 traditional heuri
 - Appendix B provides exact training hyperparameters and explicitly admits API models received single-pass inference due computational constraints.
 - Appendix D isolates training and inference cost; Appendix I separates thought-type, heuristic comparison and model-scale analyses; Appendix K compares automated vs human thought-design pipelines.
 - No formal significance tests/CI despite `significantly` wording.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/41_GraphThought.md`
+- Decision Layer: Reasoning / feedback
+- Current-study Relation: 外围
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Reasoning / feedback，主要用于外围。
+- Best Writing Claim: 把 forward heuristic 与 backward solver-guided reasoning 结合，代表双向推理与 solver feedback 路线。

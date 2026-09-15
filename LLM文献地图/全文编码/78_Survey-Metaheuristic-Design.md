@@ -79,3 +79,12 @@ Actual sequence: **M1 metaheuristic definition/broad applicability → M3 manual
 - No original experiment.
 - Methodological guidance relevant to experimental prose: stochastic algorithms require repeated evaluations; evaluation should account for target-instance heterogeneity; function evaluations can improve fairness/reproducibility; generalization requires unseen instances.
 - Important caution: statements about Friedman/t-test/function-evaluation budgets are **survey-derived methodological discussion**, not evidence that a majority of the 69-paper LLM corpus uses them. They cannot be converted into corpus norms without the final coding statistics.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/78_Survey-Metaheuristic-Design.md`
+- Decision Layer: Method taxonomy
+- Current-study Relation: 定义当前研究属于 selection/control 而非 generation
+- Innovation Boundary: 已占据或直接限制的边界：明确 automated design、algorithm selection、AOS、HH 以及 offline/online 边界，是当前研究最重要的方法论坐标。
+- Best Writing Claim: 明确 automated design、algorithm selection、AOS、HH 以及 offline/online 边界，是当前研究最重要的方法论坐标。

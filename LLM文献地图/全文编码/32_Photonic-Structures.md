@@ -89,3 +89,12 @@ Actual sequence: **M1 photonic importance/complexity → M3 LLM algorithm discov
 - Generalization is tested through small-instance discovery → larger-layer benchmarks.
 - Statistical wording `not significant` lacks a reported test, an important audit caution.
 - Runtime/hardware/API monetary cost are absent.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/32_Photonic-Structures.md`
+- Decision Layer: AHD / generalization
+- Current-study Relation: 支持跨规模实验
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 AHD / generalization，主要用于支持跨规模实验。
+- Best Writing Claim: LLaMEA 式领域算法设计并测试跨规模泛化，重要性在于 generalization 评估而非具体应用。

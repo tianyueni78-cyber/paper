@@ -83,3 +83,12 @@ Actual sequence: **M1 optimization modeling practical importance → M4 expert b
 - Ablation-like table isolates progressive FT and NEFTune effects.
 - Limitations explicitly discuss dataset external validity, compute constraints and measurement artifacts from rule-based canonicalization.
 - Missing repeated runs/seeds, statistical significance/CI, runtime and API cost.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/66_LM4OPT.md`
+- Decision Layer: Modeling
+- Current-study Relation: 外围
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Modeling，主要用于外围。
+- Best Writing Claim: 以 NL4Opt 为基础做 progressive fine-tuning，代表语言到优化建模 benchmark 路线。

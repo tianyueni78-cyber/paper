@@ -80,3 +80,12 @@ Actual sequence: **M1 OR/CO industrial relevance + hardness → M3 practical suc
 - Generalization should be defined relative to the intended distribution of optimization instances, not treated as an abstract universal property.
 - Practical evaluation should include feasibility, scaling, data-generation representativeness and deployment/runtime consequences.
 - For the current paper this supports separating selector-decision correctness/prediction quality from realized `ΔHV/ΔCmax/ΔTEC/...` optimization effects.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/79_ML4CO-Tour-dHorizon.md`
+- Decision Layer: Field taxonomy
+- Current-study Relation: 背景
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Field taxonomy，主要用于背景。
+- Best Writing Claim: 提供 ML4CO 与传统 OR/ML 的全景方法背景，是更大尺度的基础定位文献。

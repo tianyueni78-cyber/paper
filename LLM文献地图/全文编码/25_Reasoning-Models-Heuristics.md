@@ -89,3 +89,12 @@ Actual sequence: **M2 combinatorial-design existence/open-instance definition �
 - Scaled-down repeated-run section separately repairs the lack of repetition in expensive full-scale runs and supplies 95% CI + Z-test。
 - Limitations has a dedicated section and explicitly acknowledges single-run nondeterminism, scale disadvantage vs FunSearch, negative results, and lack of mathematical structure。
 - Computational cost is described in wall-clock budgets and total 6–10 day run duration; token/API money absent。
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/25_Reasoning-Models-Heuristics.md`
+- Decision Layer: Heuristic generation
+- Current-study Relation: 反馈机制参考
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Heuristic generation，主要用于反馈机制参考。
+- Best Writing Claim: 用 reasoning LLM 与 verifier feedback 生成组合设计 heuristic，证明 verifier-assisted generation 路线已存在。

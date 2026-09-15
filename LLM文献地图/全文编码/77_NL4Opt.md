@@ -83,3 +83,12 @@ Actual sequence: **M1 OR importance/applications → M2 modeling workflow → M4
 - Discussion explicitly separates performance from deployment cost/transparency: competition-optimal ensembles may be undesirable for time-sensitive real-world use.
 - Failure analysis for ChatGPT lists concrete semantic error categories rather than reporting accuracy alone.
 - Weaknesses for statistical corpus: no standardized repeated-run count, seeds, inferential tests, CI, runtime/hardware or API cost.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/77_NL4Opt.md`
+- Decision Layer: Modeling benchmark
+- Current-study Relation: 背景定义
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Modeling benchmark，主要用于背景定义。
+- Best Writing Claim: 自然语言优化建模 benchmark，把 entity recognition 与 formulation generation 标准化。

@@ -81,3 +81,12 @@ Actual sequence: **M1 COP importance/heuristic-design burden → M3 classic HH �
 - Ablation removes each reflective/evolutionary component in both white- and black-box settings.
 - Generalization is written as size/distribution transfer of the same evolved heuristic, not just another benchmark table.
 - Cost discussion explicitly argues why heuristic evaluations, rather than raw LLM query count, should be the primary AHD budget.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/68_ReEvo.md`
+- Decision Layer: Heuristic generation / reflection
+- Current-study Relation: AHD演进关键点
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Heuristic generation / reflection，主要用于AHD演进关键点。
+- Best Writing Claim: Language Hyper-Heuristic + reflective evolution + verbal gradient，是“性能反馈转语言反思再改 heuristic”的代表。

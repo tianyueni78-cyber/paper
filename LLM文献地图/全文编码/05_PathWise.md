@@ -71,3 +71,12 @@
 
 ### Novelty-claim strength
 - Strong mechanism proposal language is used for PathWise, while limitations and generalization claims are comparatively hedged. No corpus-level novelty inference is made from this single paper.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/05_PathWise.md`
+- Decision Layer: Search-control
+- Current-study Relation: 直接支撑 search-process-aware 机制，同时限制 novelty
+- Innovation Boundary: 已占据或直接限制的边界：把 heuristic design 变成带 trajectory memory、world model 与高层 policy 的 stateful search，直接证明“搜索过程状态”已进入 AHD。
+- Best Writing Claim: 把 heuristic design 变成带 trajectory memory、world model 与高层 policy 的 stateful search，直接证明“搜索过程状态”已进入 AHD。

@@ -79,3 +79,12 @@
 
 ### Novelty strength
 - Moderate. Uses `We introduce` and efficacy/generalization claims, without a `first` claim in the read text.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/13_OR-Toolformer.md`
+- Decision Layer: Tool-use / solver calling
+- Current-study Relation: 说明 LLM 与 solver 分工
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Tool-use / solver calling，主要用于说明 LLM 与 solver 分工。
+- Best Writing Claim: 让 LLM 学会调用 OR solver/API，代表工具增强而不是让 LLM 独自算到底。

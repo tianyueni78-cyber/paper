@@ -111,3 +111,12 @@ Uses assertive performance language (“highest rank”, “state of the art amo
 - Conclusion: READ
 - Appendix: NOT PRESENT as a separate appendix in this Markdown; supplementary analyses are in main text
 - EOF: READ through page 17/17 and references
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/04_MIRROR.md`
+- Decision Layer: Modeling / feedback
+- Current-study Relation: 支持反馈闭环原则
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Modeling / feedback，主要用于支持反馈闭环原则。
+- Best Writing Claim: 用多 Agent、局部/全局 memory 与执行反馈迭代修正 OR 建模，是闭环建模而非直接求解代表。

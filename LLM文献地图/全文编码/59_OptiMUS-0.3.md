@@ -83,3 +83,12 @@ Actual sequence: **M1 optimization impact/expertise bottleneck → M2 practition
 - Failure analysis uses manual qualitative coding and separates extraction/formulation/coding failure mechanisms.
 - Data-scale experiment fixes solver budget, success tolerance and seeds, and identifies two distinct baseline failure modes.
 - Limitations/non-claims are carried into Results and Conclusion instead of being buried in a token final paragraph.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/59_OptiMUS-0.3.md`
+- Decision Layer: Modeling / correction
+- Current-study Relation: 实验设计与可靠性参考
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Modeling / correction，主要用于实验设计与可靠性参考。
+- Best Writing Claim: 用模块化架构与 targeted error correction 处理真实复杂建模，并显式讨论 cost/generalization。

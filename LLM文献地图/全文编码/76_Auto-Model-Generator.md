@@ -77,3 +77,12 @@ Actual sequence: **M1 optimization-model importance → M4 modeling-language/exp
 - Particularly strong evaluation distinction: `Valid` means executable, `Correct` means matches prompt specification, verified manually.
 - Failure cases are reported directly rather than hidden: all_different omissions survive 10 repair steps; several array models execute but violate requested specification.
 - Weaknesses: no baseline, repeated runs, seeds, statistical inference, CI, runtime/hardware, robustness/generalization or conventional ablation.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/76_Auto-Model-Generator.md`
+- Decision Layer: Modeling / correction
+- Current-study Relation: 支持 executor feedback
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Modeling / correction，主要用于支持 executor feedback。
+- Best Writing Claim: LLM 生成 MiniZinc 后用 compile/error feedback 自动修复，代表执行反馈闭环。

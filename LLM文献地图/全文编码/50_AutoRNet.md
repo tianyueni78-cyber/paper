@@ -85,3 +85,12 @@ Actual sequence: **M1 network robustness importance → M2 NP-hard problem/curre
 - Results do not hide heterogeneity: v2 is acknowledged as not best on every dense-network setting; v1 is discussed for constraint preservation/stability rather than only mean score.
 - Reports Best/Worst/Average±Variance rather than only best-of-run.
 - No formal significance test, CI, runtime, hardware, token/cost or controlled NOS/AFF ablation.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/50_AutoRNet.md`
+- Decision Layer: Algorithm generation
+- Current-study Relation: 限制“整算法生成”创新
+- Innovation Boundary: 已占据或直接限制的边界：从 scoring function 扩展到完整 domain heuristic / algorithm generation，说明自动设计对象持续扩大。
+- Best Writing Claim: 从 scoring function 扩展到完整 domain heuristic / algorithm generation，说明自动设计对象持续扩大。

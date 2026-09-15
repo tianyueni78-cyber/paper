@@ -85,3 +85,12 @@ Actual sequence: **M1 optimization ubiquity → M2 expert-heavy formulation/solv
 - Generalization is decomposed by dataset, domain and optimization type rather than asserted from one average score.
 - Discussion includes model-size/cost tradeoff and general-task seesaw audit.
 - Missing from empirical reporting: repeated stochastic runs, seeds, significance tests, CI, total wall-clock, total solver/API calls and monetary inference cost.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/51_LLMOPT.md`
+- Decision Layer: Modeling
+- Current-study Relation: 外围
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Modeling，主要用于外围。
+- Best Writing Claim: 用结构化 formulation 元素、SFT/alignment/self-correction 追求跨优化类型泛化。

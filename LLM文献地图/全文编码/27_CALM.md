@@ -90,3 +90,12 @@ Actual sequence: **M1 real optimization/manual heuristics → M3 classic AHD lim
 - Generalization language explicitly labels in-domain/OOD scales.
 - Statistical significance tests: absent; three-run averages/std used instead.
 - Computational cost: hardware, quantization, trainable fraction, query budget, 60s evaluation timeout and task-level wall-clock all reported; monetary API cost absent.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/27_CALM.md`
+- Decision Layer: Co-evolution / feedback
+- Current-study Relation: 混合反馈参考
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Co-evolution / feedback，主要用于混合反馈参考。
+- Best Writing Claim: 让算法与底层 LLM 共同进化，并混合 prompt feedback 与 RL numerical feedback。

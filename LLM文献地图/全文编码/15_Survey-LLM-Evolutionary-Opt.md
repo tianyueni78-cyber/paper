@@ -102,3 +102,12 @@
 3. EoH-S already targets complementary algorithm portfolios.
 4. Dynamic selection/generation and continual self-adaptation are explicitly identified as the next research direction.
 5. A narrower potential boundary remains around a rigorously defined context-conditioned operator competence model that links predicted operator effects, observed effects, Pareto/search/environment context and controlled slow-timescale redesign, but this remains a hypothesis until direct competitors are all fully read.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/15_Survey-LLM-Evolutionary-Opt.md`
+- Decision Layer: Cross-layer taxonomy
+- Current-study Relation: 定义 Decision Layer
+- Innovation Boundary: 已占据或直接限制的边界：系统区分 LLM 在 selection、generation、operator、strategy 等层级的角色，是方法定位关键综述。
+- Best Writing Claim: 系统区分 LLM 在 selection、generation、operator、strategy 等层级的角色，是方法定位关键综述。

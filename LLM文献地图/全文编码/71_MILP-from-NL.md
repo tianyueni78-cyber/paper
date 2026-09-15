@@ -82,3 +82,12 @@ Actual sequence: **M1 real-world MILP/CO importance → M3 OR/IP background → 
 - Results are decomposed into complete-model, classification and expression-level accuracy, making pipeline failure localization possible.
 - Error analysis gives concrete missed/extra constraints, wrong coefficients/variables, binary-variable and linking-constraint failures rather than only aggregate accuracy.
 - Weaknesses for corpus statistics: no repeated-run protocol, seeds, significance tests, CI, runtime, hardware, token/cost reporting or conventional ablation.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/71_MILP-from-NL.md`
+- Decision Layer: Modeling
+- Current-study Relation: 外围
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Modeling，主要用于外围。
+- Best Writing Claim: 把变量识别、约束分类和模板化 synthesis 拆开，代表结构化 MILP 建模 pipeline。

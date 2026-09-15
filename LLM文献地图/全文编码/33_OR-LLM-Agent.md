@@ -89,3 +89,12 @@ Actual sequence: **M1 OR importance/manual modeling barrier → M3 LLM/reasoning
 - Ablation is directly aligned with architectural decomposition and reports incremental average gains.
 - Error analysis decomposes failure into code executability vs mathematical-model correctness rather than reporting only final accuracy.
 - No repeated-run statistics/significance/CI/runtime/cost reporting.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/33_OR-LLM-Agent.md`
+- Decision Layer: Agentic solving
+- Current-study Relation: 背景
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Agentic solving，主要用于背景。
+- Best Writing Claim: 用 Math/Code/Debugging agents 处理 OR，并以 BWOR benchmark 测试，是模块化 agentic OR 代表。

@@ -95,3 +95,12 @@ Actual sequence: **M1 DCP importance/solver landscape → M2 formal modelling bo
 - Final Q5 integrates best prior findings into a stronger combined configuration, a staged experimental narrative rather than indiscriminate grid search。
 - Statistical significance: NOT REPORTED despite prose occasionally saying `significantly`; no named test found。
 - Computational cost: operational budgets/timeouts reported, monetary API cost absent。
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/24_DCP-Bench.md`
+- Decision Layer: Evaluation
+- Current-study Relation: 支持 benchmark/正确性设计
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Evaluation，主要用于支持 benchmark/正确性设计。
+- Best Writing Claim: 强调约束建模 benchmark 与严格评估，把 LLM+optimization 从 demo 推向可审查比较。

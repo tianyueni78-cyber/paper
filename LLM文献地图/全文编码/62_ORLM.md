@@ -84,3 +84,12 @@ Actual sequence: **M1 industrial OR value/examples → M4 dynamic-business model
 - Human-AI study chooses tests after Shapiro-Wilk/Levene diagnostics, then reports p-values, 95% CI, Hedge’s g and statistical power. This is unusually complete statistical-writing evidence in this corpus.
 - Ablations use equal-sized datasets and fixed hyperparameters where appropriate, improving causal interpretability.
 - Limitation analysis is a full empirical section: aggregate error categories → manually coded failed examples → mechanism-level explanation → targeted future remedies.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/62_ORLM.md`
+- Decision Layer: Domain model / modeling
+- Current-study Relation: 外围
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Domain model / modeling，主要用于外围。
+- Best Writing Claim: 用 synthetic OR data 训练专门 LLM 并测 IndustryOR，代表 specialist model 路线。

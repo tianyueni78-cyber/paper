@@ -116,3 +116,12 @@
 - Generalization writing: 不只说“泛化好”，而是通过 distribution/size/capacity shift 和标准 benchmark 分层证明。
 - Statistical significance: NOT PRESENT。
 - Computational cost: hardware + <2h + equal heuristic-evaluation budget；token/API monetary cost未报。
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/18_EoH-S.md`
+- Decision Layer: Portfolio design
+- Current-study Relation: 策略库/组合路线前置证据
+- Innovation Boundary: 已占据或直接限制的边界：把 EoH 从单 heuristic 推到 complementary heuristic set，是 portfolio 形成的关键节点。
+- Best Writing Claim: 把 EoH 从单 heuristic 推到 complementary heuristic set，是 portfolio 形成的关键节点。

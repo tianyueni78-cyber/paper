@@ -87,3 +87,12 @@
 
 ### Novelty-claim strength
 - Strong capability claims (`full automation`, `self-contained`, `high trustworthiness`) are operationally defined in Table 1; no unsupported corpus-level novelty inference is added here.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/10_Agentic-VRP.md`
+- Decision Layer: Algorithm workflow
+- Current-study Relation: 背景性说明 agentic optimization
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Algorithm workflow，主要用于背景性说明 agentic optimization。
+- Best Writing Claim: 把生成、判断、修正、错误分析拆成多 Agent VRP workflow，是 agentic optimizer 的系统级案例。

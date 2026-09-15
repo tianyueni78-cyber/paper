@@ -46,3 +46,12 @@
 - Ablation-result reporting: states replacement/removal while keeping remaining method unchanged, then explains the observed quality/runtime tradeoff.
 - Academic hedging: interpretation uses `indicating`, `suggesting`, `shows`, while broad causal/generalization statements are generally tied to controlled variants or transfer experiments.
 - Novelty-claim strength: strong proposal framing but novelty is expressed through the identified evaluation/adaptation mechanism rather than `first-ever` rhetoric in the Introduction.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/07_Rethinking-LLM-Heuristic-Design.md`
+- Decision Layer: Search-control
+- Current-study Relation: 直接支撑 trajectory/runtime 状态
+- Innovation Boundary: 已占据或直接限制的边界：不只看最终 fitness，而看 trajectory convergence 与 runtime schedule，是过程感知 AHD 的代表。
+- Best Writing Claim: 不只看最终 fitness，而看 trajectory convergence 与 runtime schedule，是过程感知 AHD 的代表。

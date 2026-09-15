@@ -83,3 +83,12 @@ Actual sequence: **M1 LLM capability/rise in COP solving → M2 COP difficulty a
 - Ablation maps directly to architecture claims: encoder choice, CGERL, heuristic textual information, cross-task synergy.
 - Generalization section separates new problem type from new problem size and reports a negative/slow-transfer case (MISP), rather than hiding it.
 - Important source limitation for our audit: Appendices A–G are referenced repeatedly but are **absent from this repository markdown**, so appendix-only training/hardware/instance details cannot be invented or marked READ.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/55_UNCO.md`
+- Decision Layer: Neural solution generation
+- Current-study Relation: 外围背景
+- Innovation Boundary: 当前不构成候选 selector 机制的直接新颖性反证；已实现范围为 Neural solution generation，主要用于外围背景。
+- Best Writing Claim: 用 LLM semantic encoder + Transformer/RL solution generator 统一 text-attributed COP，代表神经生成求解路线。

@@ -88,3 +88,12 @@ Actual sequence: **M1 graph applications/complexity → M3 traditional algorithm
 - Robustness/generalization evidence is decomposed into semantic noise, node scale, different benchmark difficulty, open/closed models and repeated-query variance.
 - Runtime is relegated to appendix but measured against multi-agent baselines under the same base model.
 - No inferential significance tests/CI despite repeated use of `significantly`.
+
+## Asset Metadata
+
+- FULL TEXT READ: YES
+- Source: `LLM/37_MA-GTS.md`
+- Decision Layer: Algorithm selection
+- Current-study Relation: 限制宽泛 contextual selection novelty
+- Innovation Boundary: 已占据或直接限制的边界：根据约束与图规模动态选择算法，证明 context-aware algorithm selection 已超出 heuristic selection。
+- Best Writing Claim: 根据约束与图规模动态选择算法，证明 context-aware algorithm selection 已超出 heuristic selection。
