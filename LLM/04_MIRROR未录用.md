@@ -3,7 +3,7 @@ MIRROR: A Multi-Agent Framework with Iterative Adaptive Revision and Hierarchica
 Yifan Shi<sup>_a_,1</sup> , Jiayi Wang<sup>_a_,1</sup> , Minyi Wu<sup>_a_</sup> , Ye Fan<sup>_b_</sup> , Jialong Shi<sup>_a_,∗</sup> and Jianyong Sun<sup>_a_,∗</sup> 
 
 _aSchool of Mathematics and Statistics, Xi’an Jiaotong University, No.28, Xianning West Road, Xi’an, Shaanxi, 710049, China bSchool of Electronics and Information, Northwestern Polytechnical University, No.1, Dongxiang Road, Xi’an, Shaanxi, 710129, China_ 
-
+西安交通大学数学与统计学院团队
 ## A R T I C L E I N F O 
 
 ## A B S T R A C T 
