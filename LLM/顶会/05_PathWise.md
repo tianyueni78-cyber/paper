@@ -1,7 +1,8 @@
 **PathWise: Planning through World Model for Automated Heuristic Design via Self-Evolving LLMs** 
 
 **Oguzhan Gungordu**<sup>1</sup> **Siheng Xiong**<sup>1</sup> **Faramarz Fekri**<sup>1</sup> 
-
+类型：机器学习顶会论文
+方向：LLM + Automated Heuristic Design (AHD) + Combinatorial Optimization
 # **Abstract** 
 
 Large Language Models (LLMs) have enabled automated heuristic design (AHD) for combinatorial optimization problems (COPs), but existing frameworks’ reliance on fixed evolutionary rules and static prompt templates often leads to myopic heuristic generation, redundant evaluations, and limited reasoning about how new heuristics should be derived. We propose a novel multi-agent reasoning framework, referred to as **P** l **a** nning **th** rough **W** orld Model for Automated Heurist **i** c Design via **S** elf- **E** volving LLMs (PathWise), which formulates heuristic generation as a sequential decision process over an _entailment graph_ serving as a compact, stateful memory of the search trajectory. This approach allows the system to carry forward past decisions and reuse or avoid derivation information across generations. A policy agent plans evolutionary actions, a world model agent generates heuristic rollouts conditioned on those actions, and critic agents provide routed reflections summarizing lessons from prior steps, shifting LLM-based AHD from trialand-error evolution toward state-aware planning through reasoning. Experiments across diverse COPs show that PathWise converges faster to better heuristics, generalizes across different LLM backbones, and scales to larger problem sizes. 
