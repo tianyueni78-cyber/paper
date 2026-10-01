@@ -1,5 +1,13 @@
 # **Enhancing CVRP Solver through LLM-driven Automatic Heuristic Design** 
 
+- 类型：顶级机器学习会议（conference）
+- 不是 SCI 期刊（journal）
+- 出版集：Proceedings of Machine Learning Research (PMLR) Proceedings of Machine Learning Research
+- 作者单位：香港城市大学 + 宁德时代（CATL）   粘贴的文本 (1)
+它的定位大概是：
+机器学习顶会 + 运筹优化交叉方向
+
+
 **Zhuoliang Xie**<sup>**1**</sup> **Fei Liu**<sup>**2**</sup> **Zhenkun Wang**<sup>**1 ***</sup> **Qingfu Zhang**<sup>**2**</sup> 1 Southern University of Science and Technology 2 City University of Hong Kong 
 
 `xiezl2025@mail.sustech.edu.cn` , `fliu36-c@my.cityu.edu.hk` , `wangzhenkun90@gmail.com` , `qingfu.zhang@cityu.edu.hk` 
