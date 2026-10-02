@@ -1,5 +1,5 @@
 Published as a conference paper at ICLR 2026 
-共同点：LLM负责离线创造优化知识。提供经验存储机制
+共同点：LLM负责离线创造优化知识。提供经验存储机制。是“离线知识→在线优化”这条链上的重要参考
 # AN AGENTIC FRAMEWORK WITH LLMS FOR SOLVING COMPLEX VEHICLE ROUTING PROBLEMS 
 
 **Ni Zhang**<sup>1</sup> **, Zhiguang Cao**<sup>1</sup> **, Jianan Zhou**<sup>2</sup> **, Cong Zhang**<sup>2</sup> **, Yew-Soon Ong**<sup>2</sup> 1School of Computing and Information Systems, Singapore Management University, Singapore 2 College of Computing and Data Science, Nanyang Technological University, Singapore ni.zhang.2025@phdcs.smu.edu.sg, zgcao@smu.edu.sg jianan004@e.ntu.edu.sg, cong.zhang92@gmail.com, asysong@ntu.edu.sg 
