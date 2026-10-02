@@ -1,5 +1,12 @@
 # ReflecSched: Solving Dynamic Flexible Job-Shop Scheduling via LLM-Powered Hierarchical Reflection 
 
+LLM身份
+1. 战略分析器（Strategic Analyst）
+   不是直接调度，而是分析模拟轨迹，提取高层策略经验。   
+2. 经验提炼器（Experience Synthesizer）
+   将启发式模拟结果压缩为文本形式的 Strategic Experience。   
+3. 决策指导器（Decision Guide）
+   利用生成的经验指导最终在线调度决策。  
 Shijie Cao<sup>a</sup> , Yuan Yuan<sup>a,b,c,d,∗</sup> 
 
 _aSchool of Computer Science and Engineering, Beihang University, Beijing 100191, China bQingdao Research Institute cHangzhou Innovation Institute dZhongguancun Laboratory_ 
