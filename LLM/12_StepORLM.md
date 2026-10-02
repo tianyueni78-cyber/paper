@@ -1,5 +1,42 @@
 STEPORLM: A <u>SELF-EVOLVING</u> FRAMEWORK WITH GENERATIVE <u>PROCESS</u> SUPERVISION FOR <u>OPERATIONS RESEARCH LANGUAGE MODELS</u> 
 
+LLM干什么：
+推理生成 + 过程评价
+- Policy LLM：生成OR问题解法过程
+- GenPRM：评价推理过程，提供反馈
+核心机制：
+LLM自进化闭环
+LLM生成解法
+ ↓
+评价（结果+过程）
+ ↓
+反馈
+ ↓
+优化LLM
+
+优化算法怎么运行：
+不是优化算法本身。
+属于：
+- SFT
+- W-DPO
+- RL式反馈优化
+优化对象：LLM能力。
+知识如何留下：
+保存：
+- 高质量推理轨迹
+- 过程评价经验
+不是算子库。
+搜索位置：
+优化前 / 模型训练阶段
+不是在线搜索阶段。
+Not：
+❌ 不是算子生成
+❌ 不是算子选择
+❌ 不是operator library
+你的论文相关性：
+A：反馈评价机制
+B：知识沉淀思想
+C：算子库直接参考
 **Chenyu Zhou Tianyi Xu** Shanghai Jiao Tong University Shanghai, China Shanghai, China chenyuzhou@sjtu.edu.cn 
 
 Shanghai Jiao Tong University Shanghai, China crimsonflag@sjtu.edu.cn 
