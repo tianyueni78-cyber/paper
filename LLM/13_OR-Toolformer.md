@@ -1,5 +1,21 @@
 # **OR-Toolformer: Modeling and Solving Operations Research Problems with Tool Augmented Large Language Models** 
 
+LLM干什么：
+OR问题建模器 + 求解器调用器
+LLM负责：
+- 从自然语言提取优化问题参数；
+- 生成结构化solver API调用；
+- 自动完成“建模→调用求解器”。
+   粘贴的文本 (1)
+核心机制：
+Tool-Augmented LLM（工具增强大模型）
+流程：
+自然语言OR问题
+LLM提取参数
+生成Solver API调用
+外部优化求解器计算
+返回结果
+
 **Jianzhang Zhang, Jialong Zhou and Chuang Liu**<sup>**†**</sup> Alibaba Business School, Hangzhou Normal University {zjzhang,liuchuang}@hznu.edu.cn, jialongzhouzj@gmail.com 
 
 ## **Abstract** 
