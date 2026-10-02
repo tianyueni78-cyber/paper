@@ -1,5 +1,6 @@
 # **Evolutionary Discovery of Heuristic Policies for Traffic Signal Control** 
 
+LLM负责发现策略，最终留下一个轻量heuristic。它提供了一个很接近你想要的“离线LLM→生成知识→优化器运行”的范式。这篇不是最适合直接迁移算法的，但很值得进入你的算子设计库。价值大概 8/10。
 Ruibing Wang<sup>1</sup> , Shuhan Guo<sup>2</sup> , Zeen Li<sup>2</sup> , Zhen Wang<sup>1</sup> , and Quanming Yao<sup>2</sup> 
 
 > 1 Northwestern Polytechnical University, Xi’an, China `wrb5261@mail.nwpu.edu.cn, w-zhen@nwpu.edu.cn` 
