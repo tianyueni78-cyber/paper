@@ -1,5 +1,21 @@
 # **AutoPBO: LLM-powered Optimization for Local Search PBO Solvers** 
 
+LLM身份
+1. 算法优化器（Optimizer）
+   LLM修改已有求解器中的启发式函数和算法组件。   粘贴的文本 (1)
+2. 代码设计者（Designer）
+   LLM分析solver结构，生成代码修改方案并实现优化。   粘贴的文本 (1)
+3. 评价反馈器（Evaluator）
+   LLM代理评价修改效果，并反馈下一轮优化。   粘贴的文本 (1)
+核心机制
+LLM多智能体 + 贪心迭代优化
+跟你的关系：
+1. 模块化算子设计（★★★★★）
+   借鉴“拆分优化组件，让LLM优化指定模块”。
+2. 离线LLM设计（★★★★★）
+   符合你的“离线生成，在线不调用LLM”。
+3. 反馈筛选机制（★★★★）
+   借鉴“生成→测试→保留”。
 ## **Jinyuan Li**<sup>1, 2</sup> **, Yi Chu**<sup>3</sup> **, Yiwen Sun**<sup>4</sup> **, Mengchuan Zou**<sup>1</sup> **, Shaowei Cai**<sup>1, 2*</sup> 
 
 1Key Laboratory of System Software, Institute of Software, Chinese Academy of Sciences, Beijing, China 2School of Computer Science and Technology, University of Chinese Academy of Sciences, Beijing, China 
