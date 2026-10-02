@@ -1,5 +1,26 @@
 # **EoH-S: Evolution of Heuristic Set using LLMs for Automated Heuristic Design** 
 
+LLM身份（Role of LLM）
+1. Heuristic生成器（Generator）
+   LLM生成新的heuristic，并输出思想描述与可执行代码。   
+2. 搜索进化引擎（Evolution Designer）
+   LLM参与heuristic的迭代生成，通过互补搜索和局部搜索产生新heuristic。  
+3. 知识集合构建器（Set Builder）
+   LLM不是寻找单一最优heuristic，而是生成具有互补性的heuristic集合，提高不同实例上的适应性。
+
+1. 支撑离线LLM生成算子库（★★★★★）
+   EoH-S证明了LLM可以自动生成并维护一组互补优化策略，可迁移为：
+LLM离线生成operator library。
+
+2. 支撑算子多样性设计（★★★★★）
+   借鉴其“互补heuristic集合”思想，构建：
+不同动态状态对应不同operator。
+
+例如：
+- 故障 → 修复算子
+- 订单取消 → 重调度算子
+- AGV拥堵 → 路径调整算子
+   
 ## **Fei Liu**<sup>1</sup> **, Yilu Liu**<sup>1</sup> **, Qingfu Zhang**<sup>1</sup> **, Xialiang Tong**<sup>2</sup> **, Mingxuan Yuan**<sup>2</sup> 
 
 1Department of Computer Science, City University of Hong Kong 
