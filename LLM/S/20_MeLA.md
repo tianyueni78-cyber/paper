@@ -1,5 +1,7 @@
 # **MeLA: A Metacognitive LLM-Driven Architecture for Automatic Heuristic Design** 
 
+MeLA是你“离线LLM生成算子库”路线里非常值得看的论文之一。它提供的不是动态调度方法，而是“如何让LLM通过评价反馈逐渐产生更好的搜索算子”的方法论。你可以把它改造成：LLM离线生成FJSP邻域算子 → benchmark评价 → 筛选形成operator library。这个迁移逻辑比直接套ReflecSched更接近你的论文。
+
 **Zishang Qiu**<sup>1</sup> **, Xinan Chen**<sup>1*</sup> **, Long Chen**<sup>2</sup> **, and Ruibin Bai**<sup>1</sup> 1 **School of Computer Science, University of Nottingham Ningbo China, Ningbo, China** 2 **College of Teacher Education, Zhejiang Normal University, Jinhua, China xinan.chen@nottingham.edu.com** 
 
 #### **Abstract** 
