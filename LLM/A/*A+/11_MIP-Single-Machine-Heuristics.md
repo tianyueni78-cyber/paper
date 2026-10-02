@@ -1,5 +1,21 @@
 # **Discovering Heuristics with Large Language Models (LLMs) for Mixed-Integer Programs: Single-Machine Scheduling** 
 
+Paper:
+Discovering Heuristics with LLMs for MIP
+
+LLM角色:
+Generation
+
+优化连接:
+Evolutionary heuristic discovery
+
+核心机制:
+LLM作为mutation operator生成heuristic，
+Evaluator筛选，database保存优秀程序
+
+深挖:
+Yes
+
 ˙Ibrahim O˘guz C¸etinkaya<sup>1</sup> , ˙I. Esra B¨uy¨uktahtakın<sup>1∗</sup> 
 
 Parshin Shojaee<sup>2</sup> , Chandan K. Reddy<sup>2</sup> 
