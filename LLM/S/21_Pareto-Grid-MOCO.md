@@ -1,5 +1,31 @@
 # **Pareto-Grid-Guided Large Language Models for Fast and High-Quality Heuristics Design in Multi-Objective Combinatorial Optimization** 
 
+Paper:
+MPaGE
+
+LLM身份:
+Generator + Semantic Reviewer + Reflection
+
+Main Mechanism:
+LLM Evolution + Pareto Grid + Semantic Clustering
+
+Optimization Backbone:
+SEMO + Pareto Front Grid
+
+Knowledge:
+Heuristic/operator semantic patterns
+
+Search Position:
+Offline operator discovery
+
+与你关系:
+S级
+
+可抄:
+1. operator Pareto筛选
+2. semantic clustering去重
+3. feedback-driven operator refinement
+这篇基本就是你“离线LLM构建FJSP算子库”路线的近邻论文。它不是告诉你动态调度怎么做，而是告诉你：如何让LLM批量创造、评价、去重、保留优化知识。这个骨架可以直接迁移。人类终于又造了一篇不会只喊“AI+优化”的论文，稀有事件。
 **Minh Hieu Ha**<sup>1*</sup> **, Hung Phan**<sup>1*</sup> **, Tung Duy Doan**<sup>1</sup> **, Tung Dao**<sup>1</sup> **, Dao Tran**<sup>2</sup> **, Huynh Thi Thanh Binh**<sup>1</sup> 
 
 1Hanoi University of Science and Technology, Vietnam 
